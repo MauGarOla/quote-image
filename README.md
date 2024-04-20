@@ -37,7 +37,3 @@ To get started using the `QuoteImage` component in your project, ensure that you
 ## Contributing
 
 Contributions to the `QuoteImage` component are welcome! If you have ideas for improvements, new features, or bug fixes, please feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
