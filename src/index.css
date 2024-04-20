@@ -1,0 +1,135 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #543e5b;
+}
+
+.container {
+  margin: 20px auto;
+  padding: 30px;
+  width: 60vw;
+  border-radius: 27px;
+  background: #543e5b;
+  box-shadow:  8px 8px 16px #47354d,
+              -8px -8px 16px #614769;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  border-radius: 27px;
+  background: #543e5b;
+  box-shadow: inset 8px 8px 16px #47354d,
+              inset -8px -8px 16px #614769;
+
+  & .site {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+  }
+
+  & .brand {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 1.2em;
+    color: black;
+    text-align: end;
+  }
+
+}
+.site-logo {
+  height: 150px;
+  padding-right: 20px;
+}
+
+.brand-logo {
+  height: 80px;
+  padding-left: 20px;
+}
+
+.buttons {
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-around;
+
+  & .btn {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: none;
+    height: 4em;
+    width: 40%;
+    border-radius: 27px;
+    background: linear-gradient(145deg, #5a4261, #4c3852);
+    box-shadow:  8px 8px 16px #47354d,
+                -8px -8px 16px #614769;
+    transition: all 0.2s;
+  }
+
+  & .btn:hover {
+    font-size: 1.45em;
+    background: #543e5b;
+    background: none;
+    box-shadow: none;
+  }
+
+  & .btn:active {
+    font-size: 1.4em;
+    background: #543e5b;
+    background: #543e5b;
+    box-shadow: inset 8px 8px 16px #47354d,
+                inset -8px -8px 16px #614769;
+  }  
+}
+
+.quote-image {
+  position: relative;
+  padding: 40px;
+  border-radius: 27px;
+  background: #543e5b;
+  box-shadow: inset 8px 8px 16px #47354d,
+              inset -8px -8px 16px #614769;
+}
+
+.image {
+  position: relative;
+  border-radius: 20px;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+
+.quote {
+  position: absolute;
+  font-weight: bold;
+  line-height: 1em;
+  width: 60%;
+  top: 20%;
+  left: 20%;
+  font-size: 2.4em;
+  color: rgb(207, 207, 207);
+}
+
+.text {
+  text-align: start;
+}
+.author {
+  text-align: end;
+}
